@@ -1,0 +1,226 @@
+    1  ls
+    2  ll
+    3  ls -al
+    4  ls -ald
+    5  ls -d
+    6  md
+    7  cd
+    8  cd ..
+    9  ls
+   10  https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch
+   11  git
+   12  git status
+   13  git log
+   14  log
+   15  status
+   16  pwd
+   17  cd
+   18  cd /Users/marco/uba
+   19  whoami
+   20  cd ~
+   21  cd ~
+   22  mkdir prueba
+   23  ls
+   24  mkdir dir1 dir2 dir3
+   25  ls
+   26  mv dir1 prueba
+   27  ls
+   28  mv dir2 prueba
+   29  ls
+   30  mv dir3 prueba
+   31  ls
+   32  mkdir prueba/dir1/bienvenida
+   33  cd prueba
+   34  ls
+   35  tree
+   36  mkdir -p dir4/dir5/dir6
+   37  mkdir another folder
+   38  ls
+   39  rm
+   40  rm dir3
+   41  rm -d  dir3
+   42  ls
+   43  tree
+   44  ls / 
+   45  ls / >archivos-en-raiz.txt
+   46  ls
+   47  cat archivos-en-raiz.txt
+   48  pwd
+   49  git clone https://gitlab.com/netlab.iiep/econ-520.git
+   50  pwd
+   51  cd ..
+   52  cd
+   53  ls
+   54  cd prueba/
+   55  ls
+   56  cd..
+   57  cd.
+   58  cd
+   59  ls
+   60  cd uba/
+   61  ls
+   62  cd repo-curso-2026/
+   63  ls
+   64  cd
+   65  cd
+   66  ls
+   67  cd uba/
+   68  ls
+   69  cd repo-curso-2026/
+   70  git clone  https://gitlab.com/netlab.iiep/econ-520.git
+   71  $ sudo port install git
+   72  $ xcode-select --install
+   73  git
+   74  $ sudo port install git
+   75  ls
+   76  pwd
+   77  cd
+   78  pwd
+   79  cd / Users/marco/uba
+   80  pwd
+   81  pwd
+   82  pwd
+   83  cd /Users/marco/uba/repo-curso-2026
+   84  pwd
+   85  cd /Users/marco/uba/repo-curso-2026/prueba
+   86  pwd
+   87  wc -l combined.txt
+   88  pwd
+   89  pwd
+   90  cd /Users/marco/uba/repo-curso-2026
+   91  pwd
+   92  mkdir prueba
+   93  ls
+   94  mkdir dir1 dir2 dir3
+   95  ls
+   96  mkdir -p dir4/dir5/dir6
+   97  ls
+   98  mv dir1 prueba
+   99  ls
+  100  mv dir2 prueba
+  101  ls
+  102  mv dir3 prueba
+  103  ls
+  104  mv dir4 prueba
+  105  ls
+  106  mkdir prueba/dir1/bienvenida
+  107  cd prueba
+  108  ls
+  109  mkdir -p dir5/dir6
+  110  ls
+  111  rm -d dir3
+  112  ls
+  113  cat archivos
+  114  ls /
+  115  ls / >archivos-en-raiz.txt
+  116  ls
+  117  cat archivos-en-raiz.txt
+  118  echo "This is a test"
+  119  echo "This is a test" > test_1.txt
+  120  echo "This is a second test" > test_2.txt
+  121  echo "This is a third test" > test_3.txt
+  122  ls
+  123  cat test_1.txt text_2.txt test_3.txt
+  124  cat test_1.txt test_2.txt test_3.txt
+  125  ls
+  126  cat t* > combined.txt
+  127  cat combined.txt
+  128  cat t* >> combined.txt
+  129  echo "I've appended a line" >> combined.txt
+  130  cat combined.txt
+  131  mv combined.txt dir1
+  132  lsdir1
+  133  ls dir1
+  134  mv combined.txt test_* dir3 dir2
+  135  ls
+  136  mv dir1/* .
+  137  mv combined.txt test_* dir3 dir2
+  138  wc -l combined.txt
+  139  mv dir1/*
+  140  mv combined.txt test_* dir3
+  141  less combined.txt
+  142  echo "lower case" > a.txt
+  143  echo "Upper case" > A.txt
+  144  echo "Mixed case" > A.TXT
+  145  mv combined.txt dir1
+  146  mkdir dir1
+  147  ls
+  148  pwd
+  149  ls
+  150  ls -l dir1
+  151  ls
+  152  find .. -name "combined.txt"
+  153  mv dir2/combined.txt dir1
+  154  ls dir1
+  155  mv combined.txt test_* dir3 dir2
+  156  ls
+  157  ls dir1
+  158  mv dir1/* .
+  159  mv combined.txt test_* dir3 dir2
+  160  ls
+  161  find . -name "combined.txt"
+  162  mv dir2/combined.txt dir1
+  163  ls dir1
+  164  mv dir1/combined.txt dir2
+  165  ls dir2
+  166  ls *.txt
+  167  ls dir2
+  168  ls dir2
+  169  combined.txt  dir3  test_1.txt  test_2.txt  test_3.txt
+  170  ls dir2
+  171  combined.txt  dir3  test_1.txt  test_2.txt  test_3.tx
+  172  ls dir2
+  173  mkdir3
+  174  mk dir3
+  175  mkdir dir3
+  176  mv dir3 dir2
+  177  ls dir2
+  178  mv dir2/combined.txt dir4 dir5
+  179  ls dir2
+  180  ls dir4/dir5
+  181  ls dir2
+  182  ls dir4/dir5
+  183  find . -name "combined.txt"
+  184  mkdir -p dir4/dir5
+  185  mv dir5/combined.txt dir4/dir5
+  186  ls dir5
+  187  ls
+  188  ls dir4
+  189  ls dir4/dir5
+  190  ls dir5
+  191  mkdir -p dir4/dir5/dir6
+  192  mv dir5/combined.txt dir4/dir5/dir6
+  193  find . -name "combined.txt"
+  194  mv dir4/dir5/combined.txt dir4/dir5/dir6
+  195  ls dir4/dir5
+  196  ls dir4/dir5/dir6
+  197  cp dir4/dir5/dir6/combined.txt .
+  198  ls dir4/dir5/dir6
+  199  ls
+  200  cp combined.txt backup_combined.txt
+  201  ls
+  202  mv backup_combined.txt combined_backup.txt
+  203  ls
+  204  rm dir4/dir5/dir6/combined.txt combined_backup.txt
+  205  ls
+  206  wc -l combined.txt
+  207  ls ~ > file_list.txt
+  208  wc -l file_list.txt
+  209  rm file_list.txt
+  210  ls ~ | wc -l
+  211  s /etc|wc -l
+  212  ls /etc | wc -l
+  213  ls /etc | less
+  214  cat combined.txt | uniq | wc -l
+  215  cat combined.txt | uniq | less
+  216  man uniq
+  217  sort combined.txt | less
+  218  sort combined.txt | uniq | wc -l
+  219  mkdir -p Tareas/Tarea1
+  220  nano Tareas/Tarea01/tarea01.txt
+  221  nano Tareas/Tarea01/tarea01.txt
+  222  cd ~/uba/repo-curso-2026
+  223  pwd
+  224  mkdir -p Tareas/Tarea01
+  225  nano Tareas/Tarea01/tarea01.txt
+  226  history > Tareas/Tarea01/tarea01.txt
